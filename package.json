@@ -4,8 +4,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "build":"npm i"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "git": "^0.1.5",
+    "giti": "^1.1.7",
+    "gitignore": "^0.7.0",
     "nodemon": "^3.1.0"
   }
 }
